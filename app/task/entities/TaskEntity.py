@@ -27,10 +27,26 @@ class TaskUpdate(BaseModel):
         if ((estatus != 'Completado' ) and (estatus != 'Activo')):
             raise ValueError('Estatus solo puede ser Activo o Completado')
         return estatus
-    
+
+
+
+class TaskResponse(BaseModel):
+    id: int
+    Nombre: str
+    Descripcion: str
+    Estatus: Optional[enum.Enum]
+    FechaAlta: Optional[date]
+    FechaBaja: Optional[date]
+
+    class Config:
+        orm_mode=True
+
 class TaskDelete(BaseModel):
     msg: str
-    task: TaskCreated
-    
+    task: TaskResponse
+
+    class Config:
+        orm_mode=True
+
 class TaskList(BaseModel):
-    __root__: List[TaskCreated]
+    __root__: List[TaskResponse]
