@@ -1,0 +1,25 @@
+bcrypt == 4.0.1
+fastapi == 0.89.1
+PyMySQL == 1.0.2
+python-dotenv == 0.21.1
+SQLAlchemy == 1.4.46
+uvicorn == 0.20.0
+FastAPI-SQLAlchemy == 0.2.1
+httpx == 0.23.3
+passlib == 1.7.4
+python-jose == 3.3.0
+alembic == 1.9.2    
+bson == 0.5.10   
+cryptography==39.0.0   
+fastapi==0.89.1   
+mysqlclient==2.1.1
+
+pydantic==1.10.4
+PyJWT==1.7.1
+PyMySQL==1.0.2
+pytest==7.2.1
+python-dateutil==2.8.2
+python-dotenv==0.21.1
+python-jose==3.3.0
+python-multipart==0.0.5
+uvicorn==0.20.0
