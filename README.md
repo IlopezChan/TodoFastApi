@@ -356,8 +356,9 @@ FastAPI es un framework muy rapido y poderoso, con un sistema de injección de d
 
 - Soporta asincronía, esto es un arma de doble filo, la asincronía nos sirve para poder ejecutar procesos pesados, sin embargo en la documentacion del propio framework nos dice que solo usemos asincronía si sabemos lo que estamos haciendo.
 
-- Pocas Bibliotecas compatibles de entrada, a diferencia de frameworks como Flask o Django que llevan años, fastapi es relativamente recientes, y hay pocas bibliotecas enfocadas a el, la mayoria del tiempo se va a tener que usar una biblioteca diseñada para otro framework y adaptarla a fastapi, no es algo dificil, pero hay que considerar el tiempo que se lleva adaptandola.
+- Pocas Bibliotecas compatibles de entrada, a diferencia de frameworks como Flask o Django que llevan años, fastapi es relativamente reciente, y hay pocas bibliotecas enfocadas a el, la mayoria del tiempo se va a tener que usar una biblioteca diseñada para otro framework y adaptarla a fastapi, no es algo dificil, pero hay que considerar el tiempo que se lleva adaptandola.
 
+Como recomendación general, creo que es necesario crear un catalogo de biblioteca con su implementación en fastapi
 
 
 ## Roadmap
